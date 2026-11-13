@@ -1,0 +1,79 @@
+# Root level .gitignore for PlayGenie
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated playbooks (user data)
+ansible/current_playbook.yml
+ansible/generated_playbooks/
+ansible/hosts
+
+# Documentation build (if any)
+docs/_build/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+client/dist/
+client/build/
+*.map
+
+# Test files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Documentation files (ignore all .md except README.md files)
+*.md
+!README.md
+!server/README.md
+!client/README.md

@@ -1,0 +1,19 @@
+# Python virtual environment
+/ansible/
+
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+
+playbooks
+generated_playbooks/
+
+.ruff_cache
+
